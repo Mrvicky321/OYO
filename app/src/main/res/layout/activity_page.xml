@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_view_headline_24"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/imges"/>
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="21dp"
+            android:background="@drawable/right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Search for city,location or hotal"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-370dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="01 Aug -02 Aug . 1 guest"
+                android:textSize="12sp"
+
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-340dp"
+                android:contentDescription="1"
+                android:src="@drawable/find" />
+
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:orientation="horizontal">
+
+
+
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/round">
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/baseline_near_me_24"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nearby"
+            android:textSize="12dp"
+            android:layout_marginLeft="-55dp"
+            android:layout_marginTop="85dp"/>
+
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#FEFEFE">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fotor"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="-66dp"
+            android:textSize="11sp"
+            android:layout_height="wrap_content"
+
+            android:text="Bangalore"/>
+
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#EFFEEB">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mumbai"
+               />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="-55dp"
+            android:textSize="11sp"
+            android:layout_height="wrap_content"
+            android:text="Chennai"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#FAFEEA">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/delhi" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="-45dp"
+            android:textSize="11sp"
+            android:layout_height="wrap_content"
+            android:text="Delhi"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#E7F2FE">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gurgaon"/>
+
+
+
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Gujrat" />
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mumbai"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-55dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"/>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/punne"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Punne"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/patna"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Patna"/>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bihar"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Bihar"/>
+
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/goa"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Goa"/>
+
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dubai"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Dubai"/>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/delhi"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Delhi"/>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mumbai"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Mubai"/>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/punne"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Punne"/>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#E7F2FE">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bihar"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="-50dp"
+                android:textSize="11sp"
+                android:layout_height="wrap_content"
+                android:text="Bihar"/>
+
+
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="OYO serviced premium hotels"
+            android:layout_marginTop="20dp"
+            />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/next"
+
+        android:layout_width="164dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_people_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="58dp"
+            android:text="Company services"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="78dp"
+            android:text="Premium Services"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="94dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="-90dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/trangle"
+            android:text="Book now"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="139dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="56dp"
+            android:text="Staring from"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-55dp"
+            android:layout_marginTop="76dp"
+            android:text="₹999"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="92dp"
+            android:text="+ taxes"
+            android:textColor="@color/white"
+            android:textSize="8dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/trangle"
+            android:text="Explore"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="204dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_people_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="58dp"
+            android:text="Company services"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="78dp"
+            android:text="Premium Services"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="94dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="-90dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/trangle"
+            android:text="Book now"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="204dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_people_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="58dp"
+            android:text="Company services"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="78dp"
+            android:text="Premium Services"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="94dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="-90dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/trangle"
+            android:text="Book now"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="204dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_people_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="58dp"
+            android:text="Company services"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="78dp"
+            android:text="Premium Services"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="94dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="-90dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/trangle"
+            android:text="Book now"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="136dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="56dp"
+            android:text="Staring from"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-55dp"
+            android:layout_marginTop="76dp"
+            android:text="₹999"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="92dp"
+            android:text="+ taxes"
+            android:textColor="@color/white"
+            android:textSize="8dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/trangle"
+            android:text="Explore"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="145dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="56dp"
+            android:text="Staring from"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-55dp"
+            android:layout_marginTop="76dp"
+            android:text="₹999"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="92dp"
+            android:text="+ taxes"
+            android:textColor="@color/white"
+            android:textSize="8dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/trangle"
+            android:text="Explore"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="56dp"
+            android:text="Staring from"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-55dp"
+            android:layout_marginTop="76dp"
+            android:text="₹999"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="92dp"
+            android:text="+ taxes"
+            android:textColor="@color/white"
+            android:textSize="8dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/trangle"
+            android:text="Explore"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="Best offer for you"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/search"
+            android:layout_width="370dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/oom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Rain check"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="your plans!"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="soak in the saving!"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/roundshap"
+                android:text="Book now"
+                android:textSize="9dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/trangle">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="View all offers"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="1111"
+            android:background="@color/white">
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/baseline_home_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginLeft="-35dp"
+                android:layout_marginTop="36dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/baseline_menu_book_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bookings"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginLeft="-45dp"
+                android:layout_marginTop="36dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="28dp"
+                android:src="@drawable/find"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginLeft="-39dp"
+                android:layout_marginTop="36dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/imges"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OYO Serviced"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginLeft="-55dp"
+                android:layout_marginTop="36dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="28dp"
+                android:src="@drawable/baseline_help_center_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Need Help"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginLeft="-45dp"
+                android:layout_marginTop="36dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="679dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/baseline_view_headline_24" />
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="-38dp"
+                android:background="@drawable/right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Search for city,location or hotal"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-300dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:text="01 Aug -02 Aug . 1 guest"
+                    android:textSize="12sp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-340dp"
+                    android:src="@drawable/find" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="OYO serviced premium hotels"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <LinearLayout
+                android:layout_width="204dp"
+                android:layout_height="168dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/black" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-140dp"
+                android:src="@drawable/baseline_people_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="1dp"
+                android:text="Company services"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="5dp"
+                android:text="250+ new properties"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="94dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/trangle"
+                android:text="Book now"
+                android:textColor="@color/white"
+                android:textSize="9dp" />
+
+
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="168dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-143dp"
+                android:src="@drawable/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="-106dp"
+                android:text="Staring from"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="6dp"
+                android:text="$999"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="2dp"
+                android:text="+ taxes"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/trangle"
+                android:text="Explore"
+                android:textColor="@color/white"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Best offer for you"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="392dp"
+                android:layout_height="252dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/rain" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="-200dp"
+                android:text="     Rain check"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="-3dp"
+                android:text="     Your Plans!"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="-3dp"
+                android:text="     Soak in the saving!"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/trangle"
+                android:text="Book now"
+                android:textColor="@color/white"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/trangle">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="                                  View all offers"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
